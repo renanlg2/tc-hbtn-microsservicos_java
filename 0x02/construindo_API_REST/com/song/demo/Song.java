@@ -69,4 +69,15 @@ public class Song {
     public int hashCode() {
         return Objects.hash(id);
     }
+
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "Song{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", artista='" + artista + '\'' +
+                ", album='" + album + '\'' +
+                ", anoLancamento='" + anoLancamento + '\'' +
+                '}';
+    }
 }
