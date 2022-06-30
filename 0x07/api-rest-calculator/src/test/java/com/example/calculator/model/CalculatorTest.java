@@ -2,12 +2,18 @@ package com.example.calculator.model;
 
 import com.example.calculator.model.Calculator;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
 
 public class CalculatorTest {
-    private Calculator calc = new Calculator();
+    private Calculator calc;
+
+    @BeforeEach
+    public void setup(){
+        calc = new Calculator();
+    }
 
     @Test
     void sumTest() {
