@@ -1,4 +1,4 @@
-package com.example.product.controller;
+package com.example.product.model;
 
 import com.example.product.model.Product;
 import org.springframework.stereotype.Repository;

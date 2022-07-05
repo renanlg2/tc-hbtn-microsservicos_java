@@ -1,6 +1,7 @@
 package com.example.product.controller;
 
 import com.example.product.model.Product;
+import com.example.product.model.ProductRepository;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
