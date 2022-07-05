@@ -28,7 +28,7 @@ public class ProductController {
     @ApiResponses(value = {
             @ApiResponse(code = 11, message = "Warning - the process returned more than 1000 products.")
     })
-    @ApiOperation(value = "Reponsável por retornar uma lista de produtos.")
+    @ApiOperation(value = "Responsável por retornar uma lista de produtos.")
     @GetMapping(value = "/allProducts")
     public List<Product> allProducts(){
         return productRepository.getAllProducts();
